@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="56记账" company="" webLink="http://" view-date="2025-05-04" view-index="0" gantt-divider-location="467" resource-divider-location="300" version="3.3.3316" locale="zh_CN">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd15" name="备注" width="20" order="0"/>
+        <field id="tpd3" name="名称" width="238" order="0"/>
+        <field id="tpd6" name="持续" width="50" order="1"/>
+        <field id="tpd4" name="开始日期" width="89" order="2"/>
+        <field id="tpd5" name="结束日期" width="89" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[0,5]]></timeline>
+        <option id="color.recent"><![CDATA[#ff66ff #00cc99 #ffff33 #99ff66 #ccccff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名称" width="210" order="0"/>
+        <field id="1" name="默认角色" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="cn">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labor Day]]></date>
+        <date year="" month="10" date="1" type="HOLIDAY"><![CDATA[National Day]]></date>
+        <date year="2025" month="1" date="26" type="WORKING_DAY"><![CDATA[Compensation of 2025-02-03]]></date>
+        <date year="2025" month="1" date="28" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="1" date="29" type="HOLIDAY"/>
+        <date year="2025" month="1" date="30" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="1" date="31" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="2" date="1" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="2" date="2" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="2" date="3" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="2" date="4" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2025" month="2" date="8" type="WORKING_DAY"><![CDATA[Compensation of 2025-02-04]]></date>
+        <date year="2025" month="4" date="27" type="WORKING_DAY"><![CDATA[Compensation of 2025-05-05]]></date>
+        <date year="2025" month="4" date="4" type="HOLIDAY"><![CDATA[Ching Ming Festival]]></date>
+        <date year="2025" month="5" date="2" type="HOLIDAY"><![CDATA[Labor Day Holiday]]></date>
+        <date year="2025" month="5" date="3" type="HOLIDAY"><![CDATA[Labor Day Holiday]]></date>
+        <date year="2025" month="5" date="4" type="HOLIDAY"><![CDATA[Labor Day Holiday]]></date>
+        <date year="2025" month="5" date="5" type="HOLIDAY"><![CDATA[Labor Day Holiday]]></date>
+        <date year="2025" month="5" date="31" type="HOLIDAY"><![CDATA[Dragon Boat Festival]]></date>
+        <date year="2025" month="6" date="1" type="HOLIDAY"><![CDATA[Dragon Boat Festival Holiday]]></date>
+        <date year="2025" month="6" date="2" type="HOLIDAY"><![CDATA[Dragon Boat Festival Holiday]]></date>
+        <date year="2025" month="9" date="28" type="WORKING_DAY"><![CDATA[Compensation of 2020-10-04]]></date>
+        <date year="2025" month="10" date="2" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2025" month="10" date="3" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2025" month="10" date="4" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2025" month="10" date="5" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2025" month="10" date="6" type="HOLIDAY"><![CDATA[Moon Festival]]></date>
+        <date year="2025" month="10" date="7" type="HOLIDAY"><![CDATA[Moon Festival]]></date>
+        <date year="2025" month="10" date="8" type="HOLIDAY"><![CDATA[Moon Festival]]></date>
+        <date year="2025" month="10" date="11" type="WORKING_DAY"><![CDATA[Compensation of 2020-10-05]]></date>
+        <date year="2020" month="1" date="19" type="WORKING_DAY"><![CDATA[Compensation of 2020-01-29]]></date>
+        <date year="2020" month="1" date="24" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2020" month="1" date="25" type="HOLIDAY"/>
+        <date year="2020" month="1" date="26" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2020" month="1" date="27" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2020" month="1" date="28" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2020" month="1" date="29" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2020" month="1" date="30" type="HOLIDAY"><![CDATA[Chinese New Year Holiday]]></date>
+        <date year="2020" month="2" date="1" type="WORKING_DAY"><![CDATA[Compensation of 2020-01-30]]></date>
+        <date year="2020" month="4" date="4" type="HOLIDAY"><![CDATA[Ching Ming Festival]]></date>
+        <date year="2020" month="4" date="5" type="HOLIDAY"><![CDATA[Ching Ming Festival Holiday]]></date>
+        <date year="2020" month="4" date="6" type="HOLIDAY"><![CDATA[Ching Ming Festival Holiday]]></date>
+        <date year="2020" month="4" date="26" type="WORKING_DAY"><![CDATA[Compensation of 2020-05-04]]></date>
+        <date year="2020" month="5" date="4" type="HOLIDAY"><![CDATA[Labor Day Holiday]]></date>
+        <date year="2020" month="5" date="5" type="HOLIDAY"><![CDATA[Labor Day Holiday]]></date>
+        <date year="2020" month="5" date="9" type="WORKING_DAY"><![CDATA[Compensation of 2020-05-05]]></date>
+        <date year="2020" month="6" date="25" type="HOLIDAY"><![CDATA[Dragon Boat Festival]]></date>
+        <date year="2020" month="6" date="26" type="HOLIDAY"><![CDATA[Dragon Boat Festival Holiday]]></date>
+        <date year="2020" month="6" date="28" type="WORKING_DAY"><![CDATA[Compensation of 2020-06-26]]></date>
+        <date year="2020" month="9" date="27" type="WORKING_DAY"><![CDATA[Compensation of 2020-10-07]]></date>
+        <date year="2020" month="10" date="1" type="HOLIDAY"><![CDATA[Mid Autumn Festival]]></date>
+        <date year="2020" month="10" date="2" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="3" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="4" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="5" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="6" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="7" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="8" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2020" month="10" date="10" type="WORKING_DAY"><![CDATA[Compensation of 2020-10-08]]></date>
+        <date year="2019" month="2" date="2" type="WORKING_DAY"><![CDATA[Compensation of 2019-02-07]]></date>
+        <date year="2019" month="2" date="3" type="WORKING_DAY"><![CDATA[Compensation of 2019-02-08]]></date>
+        <date year="2019" month="2" date="4" type="HOLIDAY"><![CDATA[Chinese New Year Eve]]></date>
+        <date year="2019" month="2" date="5" type="HOLIDAY"><![CDATA[Chinese New Year]]></date>
+        <date year="2019" month="2" date="6" type="HOLIDAY"><![CDATA[Chinese New Year]]></date>
+        <date year="2019" month="2" date="7" type="HOLIDAY"><![CDATA[Chinese New Year]]></date>
+        <date year="2019" month="2" date="8" type="HOLIDAY"><![CDATA[Chinese New Year]]></date>
+        <date year="2019" month="2" date="9" type="HOLIDAY"><![CDATA[Chinese New Year]]></date>
+        <date year="2019" month="2" date="10" type="HOLIDAY"><![CDATA[Chinese New Year]]></date>
+        <date year="2019" month="4" date="5" type="HOLIDAY"><![CDATA[Ching Ming Festival]]></date>
+        <date year="2019" month="6" date="7" type="HOLIDAY"><![CDATA[Dragon Boat Festival]]></date>
+        <date year="2019" month="9" date="13" type="HOLIDAY"><![CDATA[Mid Autumn Festival]]></date>
+        <date year="2019" month="9" date="29" type="WORKING_DAY"><![CDATA[Compensation of 2019-10-04]]></date>
+        <date year="2019" month="10" date="2" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2019" month="10" date="3" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2019" month="10" date="4" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2019" month="10" date="7" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2019" month="10" date="12" type="WORKING_DAY"><![CDATA[Compensation of 2019-10-07]]></date>
+        <date year="2011" month="2" date="3" type="HOLIDAY"/>
+        <date year="2011" month="4" date="5" type="HOLIDAY"/>
+        <date year="2011" month="6" date="6" type="HOLIDAY"/>
+        <date year="2011" month="9" date="12" type="HOLIDAY"/>
+        <date year="2012" month="1" date="23" type="HOLIDAY"/>
+        <date year="2012" month="4" date="4" type="HOLIDAY"/>
+        <date year="2012" month="6" date="23" type="HOLIDAY"/>
+        <date year="2012" month="10" date="1" type="HOLIDAY"/>
+        <date year="2013" month="2" date="10" type="HOLIDAY"/>
+        <date year="2013" month="4" date="4" type="HOLIDAY"/>
+        <date year="2013" month="6" date="12" type="HOLIDAY"/>
+        <date year="2013" month="9" date="19" type="HOLIDAY"/>
+        <date year="2014" month="1" date="31" type="HOLIDAY"/>
+        <date year="2014" month="4" date="5" type="HOLIDAY"/>
+        <date year="2014" month="6" date="2" type="HOLIDAY"/>
+        <date year="2014" month="9" date="8" type="HOLIDAY"/>
+        <date year="2015" month="2" date="19" type="HOLIDAY"/>
+        <date year="2015" month="4" date="5" type="HOLIDAY"/>
+        <date year="2015" month="6" date="20" type="HOLIDAY"/>
+        <date year="2015" month="9" date="27" type="HOLIDAY"/>
+        <date year="2016" month="2" date="8" type="HOLIDAY"/>
+        <date year="2017" month="1" date="28" type="HOLIDAY"/>
+        <date year="2018" month="2" date="16" type="HOLIDAY"/>
+        <date year="2021" month="2" date="12" type="HOLIDAY"/>
+        <date year="2022" month="2" date="1" type="HOLIDAY"/>
+        <date year="2023" month="1" date="22" type="HOLIDAY"/>
+        <date year="2024" month="2" date="10" type="HOLIDAY"/>
+        <date year="2026" month="2" date="17" type="HOLIDAY"/>
+        <date year="2027" month="2" date="7" type="HOLIDAY"/>
+        <date year="2028" month="1" date="27" type="HOLIDAY"/>
+        <date year="2029" month="2" date="13" type="HOLIDAY"/>
+        <date year="2030" month="2" date="3" type="HOLIDAY"/>
+        <date year="2031" month="1" date="13" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="7" uid="3f470824e2be4188afa994a0bf55b699" name="56记账" meeting="false" start="2025-05-17" duration="163" complete="0" thirdDate="2025-05-17" thirdDate-constraint="1" expand="true">
+            <task id="0" uid="d54394c84e184d70a1db61c2f868acd5" name="需求与设计" meeting="false" start="2025-05-17" duration="10" complete="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" uid="c5a795a10d5b4a62b24a20716a7f6de5" name="技术选型" color="#ccccff" meeting="false" start="2025-05-27" duration="14" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" uid="49836867ada54f9c82eb7fe687b79709" name="方案设计" color="#99ff66" meeting="false" start="2025-06-13" duration="20" complete="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="ab1fdda354c24855b24c6dff899e8ec2" name="后端开发" color="#ffff33" meeting="false" start="2025-07-03" duration="52" complete="0" expand="true">
+                <depend id="4" type="2" difference="-20" hardness="Strong"/>
+                <depend id="5" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" uid="2d45f58b6935429e98078fa210f6a2ec" name="前端开发" color="#ff66ff" meeting="false" start="2025-08-04" duration="50" complete="0" expand="true">
+                <depend id="5" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="c8a36680552e470599f2cb5b135e477b" name="测试优化" color="#00cc99" meeting="false" start="2025-08-04" duration="82" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" uid="136d99283bfc49df9c549c5537a2e2bd" name="版本发布" meeting="false" start="2025-11-02" duration="5" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
