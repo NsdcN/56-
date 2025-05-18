@@ -17,7 +17,6 @@ jobs:
         uses: wearerequired/git-mirror-action@master
         with:
           source-repo: git@github.com:NsdcN/56Account.git
-          DESTINATION: git@gitee.com:NsdcN/56Account.git
           target-repo: git@gitee.com:NsdcN/56Account.git
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
