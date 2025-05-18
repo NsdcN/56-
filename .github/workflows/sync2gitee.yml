@@ -12,10 +12,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags 
-          
+
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
         with:
+          source-repo: git@github.com:NsdcN/56Account.git
           target-repo: git@gitee.com:NsdcN/56Account.git
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
