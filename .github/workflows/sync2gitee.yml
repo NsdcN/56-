@@ -13,5 +13,6 @@ jobs:
         with:
           source-repo: git@github.com:NsdcN/56-.git
           target-repo: git@gitee.com:NsdcN/56Account.git
-          target-token: ${{ secrets.GITEE_SYNC_TOKEN }}
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
 
