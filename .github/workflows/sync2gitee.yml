@@ -11,7 +11,6 @@ jobs:
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
         with:
-          source-repo: git@github.com:NsdcN/56-.git
           target-repo: git@gitee.com:NsdcN/56Account.git
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_KEY }}
